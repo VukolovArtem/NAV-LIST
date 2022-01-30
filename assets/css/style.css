@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: black;
+  line-height: 140%;
+}
+.nav-list {
+  font-size: 0;
+  text-transform: uppercase;
+}
+
+.nav-list-item {
+  position: relative;
+  font-size: 16px;
+  display: inline-block;
+  background-color: rgb(3, 58, 15);
+}
+
+.nav-list-item:hover {
+  background-color: rgb(5, 80, 21);
+}
+
+.link {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  width: 200px;
+  border: 0.1px solid rgb(136, 136, 136);
+}
+
+.sub-nav-item {
+  display: block;
+}
+
+.sub-nav-list {
+  display: none;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+.right {
+  left: 100%;
+  top: 0;
+}
+
+.nav-list-item:hover > .sub-nav-list {
+  display: block;
+}
